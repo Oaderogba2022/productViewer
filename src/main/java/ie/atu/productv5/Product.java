@@ -1,10 +1,8 @@
-package ie.atu.productv3;
-
-import ie.atu.productv5.Music;
+package ie.atu.productv5;
 
 import java.text.NumberFormat;
 
-public class Product extends Music {
+public class Product  {
 
     private String code;
     private String description;

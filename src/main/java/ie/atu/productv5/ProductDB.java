@@ -1,11 +1,11 @@
-package ie.atu.productv3;
+package ie.atu.productv5;
 
 
-import ie.atu.productv5.Music;
+
 
 public class ProductDB {
 
-    public static Product getProduct(String productCode) {
+    public static ie.atu.productv5.Product getProduct(String productCode) {
         // In a more realistic application, this code would
         // get the data for the product from a file or database
         // For now, this code just uses if/else statements
@@ -66,7 +66,7 @@ public class ProductDB {
             myMusic.setDescription("DID YOU SEE by JHUS");
             myMusic.setLabel("Part of Universal music group");
             myMusic.setPrice(86.50);
-            p = (Product) myMusic;
+            p =  myMusic;
         }
         return p;
     }
