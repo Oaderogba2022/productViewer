@@ -33,6 +33,6 @@ public class Music extends Product {
     }
 
     @Override
-    public String toString() {return super.toString() +"by" + artist + "part of" + label;
+    public String toString() {return super.toString() +"by" + artist + "\npart of " + label;
     }
 }

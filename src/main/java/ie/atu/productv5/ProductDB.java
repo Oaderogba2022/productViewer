@@ -64,9 +64,18 @@ public class ProductDB {
             Music myMusic = new Music();
             myMusic.setCode(productCode);
             myMusic.setDescription("DID YOU SEE by JHUS");
-            myMusic.setLabel("Part of Universal music group");
+            myMusic.setLabel("Universal music group");
             myMusic.setPrice(86.50);
             p =  myMusic;
+        }
+        if(productCode.equalsIgnoreCase("kdl43"));
+        {
+            TV tvSize = new TV();
+            tvSize.setCode(productCode);
+            tvSize.setDescription("SONY BRAVIA SMART TV KDL43F663 by Sony");
+            tvSize.setScreenSize(" 55");
+            tvSize.setPrice(819.00);
+            p =  tvSize;
         }
         return p;
     }
